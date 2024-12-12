@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta name="description" content="Лабораторна №7">
+    <meta name="author" content="Студент групи КН-31заоч, Москва Богдан">
+    <meta name="keywords" content="HTML, web, дизайн">
+    <title>Лабораторна №7</title>
+    <!-- Зовнішні стилі -->
+    <link rel="stylesheet" href="static/css/lab7.css">
+    <!-- Внутрішні стилі -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Вбудовані стилі -->
+    <div id="header" style="text-align: center; padding: 20px; background-color: #0073e6; color: white;">
+        <h1>Основи CSS</h1>
+    </div>
+
+    <div class="container">
+        <p class="important">Це важливий параграф, стилізований за допомогою класу.</p>
+        <p>Звичайний параграф без особливих стилів.</p>
+        <p class="highlight">Цей параграф виділений за допомогою класу "highlight".</p>
+    </div>
+
+    <a href="#" class="link">Це посилання</a>
+    <a href="#" class="link visited">Це відвідане посилання</a>
+
+    <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+    </ul>
+</body>
+</html>
